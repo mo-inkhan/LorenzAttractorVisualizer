@@ -8,7 +8,7 @@ Author: **[Moin Khan](https://github.com/mo-inkhan)**
 `Lorenz Attractor Visualizer` This project demonstrates chaos theory using the Lorenz Attractor system. It's built with [Svelte](https://svelte.dev/). The visualizer renders a 3D representation of the Lorenz Attractor, with the camera position controlled by the user's mouse.
 
 ## Demo
-[Lorenz Attractor Visualizer]()
+[Lorenz Attractor Visualizer](https://mo-inkhan.github.io/LorenzAttractorVisualizer/)
 
 
 ## Contributing
