@@ -2,19 +2,19 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
+		<link rel="icon" href="./LorenzAttractorVisualizer/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_page.0500147e.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.75df2dca.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.f4df2db4.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.cb546946.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.fe05ab99.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.41c905a7.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/layout.svelte.1c4f171f.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/_layout.js.984db11e.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.da46b06b.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/_page.svelte.eacbe234.js">
+		<link href="./LorenzAttractorVisualizer/_app/immutable/assets/_page.0500147e.css" rel="stylesheet">
+		<link rel="modulepreload" href="./LorenzAttractorVisualizer/_app/immutable/entry/start.4b1231a2.js">
+		<link rel="modulepreload" href="./LorenzAttractorVisualizer/_app/immutable/chunks/index.f4df2db4.js">
+		<link rel="modulepreload" href="./LorenzAttractorVisualizer/_app/immutable/chunks/singletons.d63d7870.js">
+		<link rel="modulepreload" href="./LorenzAttractorVisualizer/_app/immutable/entry/app.e8cbc0aa.js">
+		<link rel="modulepreload" href="./LorenzAttractorVisualizer/_app/immutable/chunks/preload-helper.41c905a7.js">
+		<link rel="modulepreload" href="./LorenzAttractorVisualizer/_app/immutable/entry/layout.svelte.1c4f171f.js">
+		<link rel="modulepreload" href="./LorenzAttractorVisualizer/_app/immutable/entry/_layout.js.984db11e.js">
+		<link rel="modulepreload" href="./LorenzAttractorVisualizer/_app/immutable/chunks/_layout.da46b06b.js">
+		<link rel="modulepreload" href="./LorenzAttractorVisualizer/_app/immutable/entry/_page.svelte.eacbe234.js">
 	</head>
 	<body data-sveltekit-preload-data="hover" style="background-color: black">
 		<div style="display: contents">
@@ -31,19 +31,20 @@
 			
 			<script>
 				{
-					__sveltekit_bmwjnd = {
+					__sveltekit_nycigi = {
 						env: {},
-						base: new URL(".", location).pathname.slice(0, -1),
+						assets: "/LorenzAttractorVisualizer",
+						base: new URL("./LorenzAttractorVisualizer", location).pathname,
 						element: document.currentScript.parentElement
 					};
 
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.75df2dca.js"),
-						import("./_app/immutable/entry/app.fe05ab99.js")
+						import("./LorenzAttractorVisualizer/_app/immutable/entry/start.4b1231a2.js"),
+						import("./LorenzAttractorVisualizer/_app/immutable/entry/app.e8cbc0aa.js")
 					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_bmwjnd.element, {
+						kit.start(app, __sveltekit_nycigi.element, {
 							node_ids: [0, 2],
 							data,
 							form: null,
