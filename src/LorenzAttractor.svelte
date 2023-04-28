@@ -64,7 +64,7 @@
 </script>
 
 <div class="container-action" on:click={() => (enableCamera = !enableCamera)}>
-    {enableCamera ? "Disable" : "Enable"} movement
+    {enableCamera ? "Disable" : "Enable"} mouse movement
 </div>
 <div class="container">
     <P5 {sketch} />
